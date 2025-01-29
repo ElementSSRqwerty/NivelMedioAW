@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+    font-size: 62,5%;
+    background-color: rgb(170, 192, 128);
+}
+header{
+    font-size: 2.2rem;
+    text-align: right;
+    color: blue;
+    font-weight: 900;
+    margin: 0rem 5rem  0rem 0rem;
+}
+.fiore{
+    display: flex;
+    flex-direction: row;
+}
+.croce{
+    display: flex;
+    flex-direction: column;
+}
+.novella{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    background-color: rgb(20, 59, 20);
+    color: white;
+}
+.tam{
+    width: 20%;
+    margin: 3rem 35rem 1rem ;
+}

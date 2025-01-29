@@ -1,0 +1,42 @@
+
+.tabla1{
+    margin: auto;
+    border-collapse: collapse;
+}
+.tabla1 tr th{
+    padding: 10px 81px;
+    background-color: rgb(171, 255, 227);
+}
+.tabla2{
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+    padding: 5px;
+    border: 1px solid black;
+}
+tr{
+    border-collapse: collapse;
+}
+.HLC{
+    background-color: green;
+    color: white;
+}
+.Seguridad{
+    background-color: blue;
+    color: white;
+}
+.Economia{
+    background-color: yellow;
+}
+.Servicios{
+    background-color: red;
+    color: white;
+}
+.Sistemas{
+    background-color: orange;
+}
+.Aplicaciones{
+    background-color: purple;
+    color: white;
+}

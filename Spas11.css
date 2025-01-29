@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+.Columnas{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Escritorio, .Internet{
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.Escritorio > h2, .Internet > h2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Escritorio > div, .Internet > div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Escritorio > div > p, .Internet > div > p{
+    margin-top: 0px;
+}
+.Escritorio > div > h3, .Internet > div > h3{
+    margin-bottom: 0px;
+}
+h1{
+    margin-top: 0px ;
+    background-color: rgb(2, 2, 45);
+    color: white;
+    padding: 10px;
+}
+h2{
+    background-color: rgb(2, 2, 45);
+    color: white;
+    text-align: center;
+}
+h3{
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+p{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 10px
+}
