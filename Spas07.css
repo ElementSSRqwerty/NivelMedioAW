@@ -1,0 +1,73 @@
+body{
+    background-color: gray;
+}
+header{
+    font-size: xx-large;
+    font-weight: 999;
+    text-align: center;
+}
+.naranja{
+    text-align: center;
+    background-color: orange;
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    z-index: 0;
+}
+.amarillo{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    background-color: yellow;
+    border: 1px solid rgb(255, 196, 0);
+    width: 35%;
+    float: left;
+    text-align: left;
+    z-index: -1;
+    padding-bottom: 50px;
+}
+.azul{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    background-color: aqua;
+    border: 1px solid blue;
+    width: 35%;
+    text-align: right;
+    z-index: -1;
+    padding-bottom: 50px;
+}
+.verde{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    background-color: greenyellow;
+    border: 1px solid green;
+    width: 40%;
+    text-align: center;
+    z-index: 1;
+    padding-bottom: 60px;
+}
+.morado{
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    background-color: violet;
+    border: 1px solid purple;
+    width: 35%;
+    text-align: left;
+    z-index: -1;
+    padding-bottom: 50px;
+}
+.rosa{
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    background-color: palevioletred;
+    border: 1px solid purple;
+    width: 35%;
+    text-align: right;
+    z-index: -1;
+    padding-bottom: 50px;
+}

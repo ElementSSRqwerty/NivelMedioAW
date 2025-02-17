@@ -1,0 +1,27 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+}
+body{
+    width: 60%;
+    margin: auto;
+}
+.principal{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.uno{width: 50%;}
+.dos{
+    width: 125%;
+    background-color: orange;
+}
+.borde{
+    border: gray 5px solid;
+}
+.m0px{
+    margin: 0px;
+}

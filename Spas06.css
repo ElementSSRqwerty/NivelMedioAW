@@ -1,0 +1,43 @@
+body{
+    background-color: green;
+}
+header{
+    color: white;
+    text-transform: uppercase;
+}
+div{
+    margin: 20px;
+}
+.blanco{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border: 5px black solid;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+.rojo{
+    width: 50%;
+    background-color: lightcoral;
+    border: 5px red solid;
+    color: white;
+    padding: 5px;
+}
+.naranja{
+    width: 50%;
+    margin-left: auto;
+    background-color: lightsalmon;
+    border: 5px rgb(134, 87, 0) solid;
+    color: white;
+    padding: 5px;
+}
+.azul{
+    width: 50%;
+    margin: auto;
+    background-color: blue;
+    border: 5px lightskyblue dashed;
+    padding: 0px 10px;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
